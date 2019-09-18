@@ -5,7 +5,6 @@ import dev.mrshawn.mclegends.utils.Chat;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -64,20 +63,21 @@ public class JSONFileCreator {
 		return false;
 	}
 
-	public void put(String title, String value) {
-		jsonObject.put(title, value);
+	public void put(String key, String value) {
+		jsonObject.put(key, value);
 	}
 
-	public void putArray(String title, String... values) {
+	public void putArray(String key, String... values) {
 		JSONArray array = new JSONArray();
 		array.addAll(Arrays.asList(values));
-		jsonObject.put(title, array);
+		jsonObject.put(key, array);
 	}
 
 	public boolean save() {
 		try {
-			BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+			FileWriter writer = new FileWriter(file);
 			writer.write(jsonObject.toJSONString());
+			writer.flush();
 			writer.close();
 			Chat.log("&aSuccessfully saved: &6" + file.getName());
 			return true;
