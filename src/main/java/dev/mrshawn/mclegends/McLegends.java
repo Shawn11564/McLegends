@@ -9,7 +9,6 @@ public final class McLegends extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		instance = this;
-
 	}
 
 	@Override
