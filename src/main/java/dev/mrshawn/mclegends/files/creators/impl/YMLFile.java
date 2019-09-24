@@ -1,11 +1,14 @@
-package dev.mrshawn.mclegends.files;
+package dev.mrshawn.mclegends.files.creators.impl;
 
 import dev.mrshawn.mclegends.McLegends;
+import dev.mrshawn.mclegends.files.creators.YMLFileCreator;
+import lombok.Getter;
 import org.bukkit.configuration.file.FileConfiguration;
 
 import java.io.File;
 import java.util.List;
 
+@Getter
 public class YMLFile {
 
 	private File file;

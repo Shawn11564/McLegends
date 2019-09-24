@@ -1,4 +1,4 @@
-package dev.mrshawn.mclegends.files;
+package dev.mrshawn.mclegends.files.creators.impl;
 
 import dev.mrshawn.mclegends.McLegends;
 import dev.mrshawn.mclegends.utils.Chat;
