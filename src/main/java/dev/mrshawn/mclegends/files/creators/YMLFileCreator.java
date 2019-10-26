@@ -60,7 +60,6 @@ public class YMLFileCreator {
 				if (directory.mkdir()) { // Create the folder if it doesn't exist already
 					try {
 						if (file.createNewFile()) { // Create the file
-							Chat.log("&aSuccessfully created file: &6" + file.getName());
 							return true;
 						}
 					} catch (IOException e) {

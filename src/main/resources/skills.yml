@@ -1,0 +1,58 @@
+swords:
+  enabled-for-pvp: true
+  enabled-for-pve: true
+  maxlevel: 1000
+  abilities:
+    spiral:
+    bleed:
+    rage:
+
+mining:
+  enabled: true
+  maxlevel: 1000
+  abilities:
+    drill:
+    intuition:
+    philosophy:
+
+axes:
+  enabled-for-pvp: true
+  enabled-for-pve: true
+  maxlevel: 1000
+  abilities:
+    fissure:
+    dismantle:
+    clobber:
+
+logging:
+  enabled: true
+  maxlevel: 1000
+  abilities:
+    treefellar:
+    lumberjack:
+    orchardist:
+
+shovel:
+  enabled: true
+  maxlevel: 1000
+  abilities:
+    bulldozer:
+    scrounge:
+    quarry:
+
+acrobatics:
+  enabled-for-pvp: true
+  enabled-for-pve: true
+  maxlevel: 1000
+  abilities:
+    ascension:
+    roll:
+    dodge:
+
+farming:
+  enabled: true
+  maxlevel: 1000
+  abilities:
+    cultivator:
+    green-thumb:
+    nutrition:

@@ -33,7 +33,6 @@ public class JSONFileCreator {
 				if (directory.mkdir()) {
 					try {
 						if (file.createNewFile()) {
-							Chat.log("&aSuccessfully created file: &6" + file.getName());
 							jsonObject = new JSONObject();
 							return true;
 						}
