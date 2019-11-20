@@ -1,0 +1,8 @@
+name: McLegends
+version: 0.1.0
+main: dev.mrshawn.mclegends.McLegends
+api-version: 1.13
+prefix: McLegends
+authors: [MrShawn]
+description: Add amazing new features to your server. From skill trees to apple trees, you can have so many awesome features!
+website: https://mrshawn.dev/mclegends
